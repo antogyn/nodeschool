@@ -1,0 +1,161 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/bin/npm', 'i', 'zlib' ]
+2 info using npm@2.11.1
+3 info using node@v0.10.25
+4 verbose node symlink /usr/bin/node
+5 verbose install initial load of /home/aginiers/Projects/nodeschool/stream-adventure/package.json
+6 verbose installManyTop reading scoped package data from /home/aginiers/Projects/nodeschool/stream-adventure/node_modules/concat-stream/package.json
+7 verbose installManyTop reading scoped package data from /home/aginiers/Projects/nodeschool/stream-adventure/node_modules/duplexer/package.json
+8 verbose installManyTop reading scoped package data from /home/aginiers/Projects/nodeschool/stream-adventure/node_modules/duplexer2/package.json
+9 verbose installManyTop reading scoped package data from /home/aginiers/Projects/nodeschool/stream-adventure/node_modules/request/package.json
+10 verbose installManyTop reading scoped package data from /home/aginiers/Projects/nodeschool/stream-adventure/node_modules/split/package.json
+11 verbose installManyTop reading scoped package data from /home/aginiers/Projects/nodeschool/stream-adventure/node_modules/stream-combiner/package.json
+12 verbose installManyTop reading scoped package data from /home/aginiers/Projects/nodeschool/stream-adventure/node_modules/through2/package.json
+13 verbose installManyTop reading scoped package data from /home/aginiers/Projects/nodeschool/stream-adventure/node_modules/trumpet/package.json
+14 verbose installManyTop reading scoped package data from /home/aginiers/Projects/nodeschool/stream-adventure/node_modules/websocket-stream/package.json
+15 info package.json duplexer@0.1.1 No license field.
+16 info package.json duplexer2@0.0.2 license should be a valid SPDX license expression
+17 verbose readDependencies loading dependencies from /home/aginiers/Projects/nodeschool/stream-adventure/package.json
+18 silly cache add args [ 'zlib', null ]
+19 verbose cache add spec zlib
+20 silly cache add parsed spec { raw: 'zlib',
+20 silly cache add   scope: null,
+20 silly cache add   name: 'zlib',
+20 silly cache add   rawSpec: '',
+20 silly cache add   spec: '*',
+20 silly cache add   type: 'range' }
+21 silly addNamed zlib@*
+22 verbose addNamed "*" is a valid semver range for zlib
+23 silly addNameRange { name: 'zlib', range: '*', hasData: false }
+24 silly mapToRegistry name zlib
+25 silly mapToRegistry using default registry
+26 silly mapToRegistry registry https://registry.npmjs.org/
+27 silly mapToRegistry uri https://registry.npmjs.org/zlib
+28 verbose addNameRange registry:https://registry.npmjs.org/zlib not in flight; fetching
+29 verbose request uri https://registry.npmjs.org/zlib
+30 verbose request no auth needed
+31 info attempt registry request try #1 at 16:29:18
+32 verbose request id 04bebc9f1a510667
+33 verbose etag "EBQNZSBGN9EL34IT3BLYCYHQA"
+34 http request GET https://registry.npmjs.org/zlib
+35 http 304 https://registry.npmjs.org/zlib
+36 silly get cb [ 304,
+36 silly get   { date: 'Sat, 11 Jul 2015 14:29:18 GMT',
+36 silly get     via: '1.1 varnish',
+36 silly get     'cache-control': 'max-age=60',
+36 silly get     etag: '"EBQNZSBGN9EL34IT3BLYCYHQA"',
+36 silly get     age: '0',
+36 silly get     connection: 'keep-alive',
+36 silly get     'x-served-by': 'cache-lhr6332-LHR',
+36 silly get     'x-cache': 'HIT',
+36 silly get     'x-cache-hits': '1',
+36 silly get     'x-timer': 'S1436624958.991799,VS0,VE652',
+36 silly get     vary: 'Accept' } ]
+37 verbose etag https://registry.npmjs.org/zlib from cache
+38 verbose get saving zlib to /home/aginiers/.npm/registry.npmjs.org/zlib/.cache.json
+39 silly addNameRange number 2 { name: 'zlib', range: '*', hasData: true }
+40 silly addNameRange versions [ 'zlib',
+40 silly addNameRange   [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.4', '1.0.5' ] ]
+41 silly addNamed zlib@1.0.5
+42 verbose addNamed "1.0.5" is a plain semver version for zlib
+43 silly cache afterAdd zlib@1.0.5
+44 verbose afterAdd /home/aginiers/.npm/zlib/1.0.5/package/package.json not in flight; writing
+45 verbose afterAdd /home/aginiers/.npm/zlib/1.0.5/package/package.json written
+46 silly install resolved [ { name: 'zlib',
+46 silly install resolved     description: 'Simple, synchronous deflate/inflate for buffers',
+46 silly install resolved     version: '1.0.5',
+46 silly install resolved     homepage: 'https://github.com/kkaefer/node-zlib',
+46 silly install resolved     author: { name: 'Konstantin Käfer', email: 'kkaefer@gmail.com' },
+46 silly install resolved     repository: { type: 'git', url: 'git://github.com/kkaefer/node-zlib.git' },
+46 silly install resolved     engines: { node: '>=0.2.0' },
+46 silly install resolved     licenses: [ [Object] ],
+46 silly install resolved     main: './lib/zlib',
+46 silly install resolved     _npmJsonOpts:
+46 silly install resolved      { file: '/Users/kkaefer/.npm/zlib/1.0.5/package/package.json',
+46 silly install resolved        contributors: false,
+46 silly install resolved        serverjs: false,
+46 silly install resolved        wscript: true },
+46 silly install resolved     _id: 'zlib@1.0.5',
+46 silly install resolved     scripts: { preinstall: 'node-waf clean || true; node-waf configure build' },
+46 silly install resolved     dependencies: {},
+46 silly install resolved     devDependencies: {},
+46 silly install resolved     _engineSupported: true,
+46 silly install resolved     _npmVersion: '1.0.23',
+46 silly install resolved     _nodeVersion: 'v0.4.9',
+46 silly install resolved     _defaultsLoaded: true,
+46 silly install resolved     dist:
+46 silly install resolved      { shasum: '6e7c972fc371c645a6afb03ab14769def114fcc0',
+46 silly install resolved        tarball: 'http://registry.npmjs.org/zlib/-/zlib-1.0.5.tgz' },
+46 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+46 silly install resolved     directories: {},
+46 silly install resolved     _shasum: '6e7c972fc371c645a6afb03ab14769def114fcc0',
+46 silly install resolved     _resolved: 'https://registry.npmjs.org/zlib/-/zlib-1.0.5.tgz',
+46 silly install resolved     _from: 'zlib@*',
+46 silly install resolved     bugs: { url: 'https://github.com/kkaefer/node-zlib/issues' },
+46 silly install resolved     readme: 'ERROR: No README data found!' } ]
+47 info install zlib@1.0.5 into /home/aginiers/Projects/nodeschool/stream-adventure
+48 info installOne zlib@1.0.5
+49 verbose installOne of zlib to /home/aginiers/Projects/nodeschool/stream-adventure not in flight; installing
+50 verbose lock using /home/aginiers/.npm/_locks/zlib-ec60b80e9a62144d.lock for /home/aginiers/Projects/nodeschool/stream-adventure/node_modules/zlib
+51 silly install write writing zlib 1.0.5 to /home/aginiers/Projects/nodeschool/stream-adventure/node_modules/zlib
+52 verbose unbuild node_modules/zlib
+53 silly gentlyRm /home/aginiers/Projects/nodeschool/stream-adventure/node_modules/zlib is being purged from base /home/aginiers/Projects/nodeschool/stream-adventure
+54 verbose gentlyRm don't care about contents; nuking /home/aginiers/Projects/nodeschool/stream-adventure/node_modules/zlib
+55 verbose tar unpack /home/aginiers/.npm/zlib/1.0.5/package.tgz
+56 verbose tar unpacking to /home/aginiers/Projects/nodeschool/stream-adventure/node_modules/zlib
+57 silly gentlyRm /home/aginiers/Projects/nodeschool/stream-adventure/node_modules/zlib is being purged
+58 verbose gentlyRm don't care about contents; nuking /home/aginiers/Projects/nodeschool/stream-adventure/node_modules/zlib
+59 silly gunzTarPerm modes [ '755', '644' ]
+60 silly gunzTarPerm extractEntry .gitignore
+61 silly gunzTarPerm extractEntry configure
+62 silly gunzTarPerm extractEntry index.js
+63 silly gunzTarPerm extractEntry LICENSE
+64 silly gunzTarPerm extractEntry Makefile
+65 silly gunzTarPerm extractEntry package.json
+66 silly gunzTarPerm extractEntry README.md
+67 silly gunzTarPerm extractEntry wscript
+68 silly gunzTarPerm extractEntry lib/zlib.js
+69 silly gunzTarPerm extractEntry src/node-zlib.cc
+70 silly gunzTarPerm extractEntry test/deflate.test.js
+71 silly gunzTarPerm extractEntry test/inflate.test.js
+72 verbose write writing to /home/aginiers/Projects/nodeschool/stream-adventure/node_modules/zlib/package.json
+73 info preinstall zlib@1.0.5
+74 verbose unsafe-perm in lifecycle false
+75 info zlib@1.0.5 Failed to exec preinstall script
+76 verbose unlock done using /home/aginiers/.npm/_locks/zlib-ec60b80e9a62144d.lock for /home/aginiers/Projects/nodeschool/stream-adventure/node_modules/zlib
+77 verbose stack Error: zlib@1.0.5 preinstall: `node-waf clean || true; node-waf configure build`
+77 verbose stack spawn ENOENT
+77 verbose stack     at ChildProcess.<anonymous> (/usr/lib/node_modules/npm/lib/utils/spawn.js:17:16)
+77 verbose stack     at ChildProcess.EventEmitter.emit (events.js:98:17)
+77 verbose stack     at maybeClose (child_process.js:743:16)
+77 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:810:5)
+78 verbose pkgid zlib@1.0.5
+79 verbose cwd /home/aginiers/Projects/nodeschool/stream-adventure
+80 error Linux 3.19.0-18-generic
+81 error argv "node" "/usr/bin/npm" "i" "zlib"
+82 error node v0.10.25
+83 error npm  v2.11.1
+84 error file sh
+85 error code ELIFECYCLE
+86 error errno ENOENT
+87 error syscall spawn
+88 error zlib@1.0.5 preinstall: `node-waf clean || true; node-waf configure build`
+88 error spawn ENOENT
+89 error Failed at the zlib@1.0.5 preinstall script 'node-waf clean || true; node-waf configure build'.
+89 error This is most likely a problem with the zlib package,
+89 error not with npm itself.
+89 error Tell the author that this fails on your system:
+89 error     node-waf clean || true; node-waf configure build
+89 error You can get their info via:
+89 error     npm owner ls zlib
+89 error There is likely additional logging output above.
+90 verbose exit [ 1, true ]
+91 verbose unbuild node_modules/zlib
+92 info preuninstall zlib@1.0.5
+93 info uninstall zlib@1.0.5
+94 verbose unbuild rmStuff zlib@1.0.5 from /home/aginiers/Projects/nodeschool/stream-adventure/node_modules
+95 info postuninstall zlib@1.0.5
+96 silly gentlyRm /home/aginiers/Projects/nodeschool/stream-adventure/node_modules/zlib is being purged from base /home/aginiers/Projects/nodeschool/stream-adventure
+97 verbose gentlyRm don't care about contents; nuking /home/aginiers/Projects/nodeschool/stream-adventure/node_modules/zlib
+98 silly vacuum-fs purging /home/aginiers/Projects/nodeschool/stream-adventure/node_modules/zlib
+99 silly vacuum-fs quitting because other entries in /home/aginiers/Projects/nodeschool/stream-adventure/node_modules
